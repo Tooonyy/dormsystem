@@ -12,7 +12,7 @@ function connect($mysql){
     $db_host = 'localhost';    //ip端口
     $db_name = 'dormsystem';    //数据库名称
     $db_user = 'root';
-    $db_pwd = '';
+    $db_pwd = 'TONYpapa';
 
     $mysql->connect($db_host,$db_user,$db_pwd,$db_name);
     if (!$mysql){
