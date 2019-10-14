@@ -1,3 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        center {
+            margin-top: 5%;
+        }
+    </style>
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+<center>
+    <h1>登录</h1>
+    <table >
+        <form action="" method="post" id="login_form">
+            <tr>
+                <td style="text-align: right">
+                    账号：
+                </td>
+                <td>
+                    <input type="text" id="account">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">
+                    密码：
+                </td>
+                <td>
+                    <input type="password" id="login_password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <button type="button" id="login-button">登录</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</center>
+<script type="text/javascript" src="transfer.js"></script>
+</body>
+</html>
+
 <?php
 /**
  * Created by PhpStorm.
