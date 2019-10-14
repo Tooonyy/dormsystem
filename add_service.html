@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        center {
+            margin-top: 5%;
+        }
+    </style>
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+<center>
+    <h1>报修表</h1>
+
+    <table id="special">
+        <form action="./add_service.php" method="post">
+            <tr>
+                <td style="text-align: right">
+                    宿舍大楼：
+                </td>
+                <td>
+                    <input type="text" name="building">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">
+                    房间号：
+                </td>
+                <td>
+                    <input type="text" name="room_num">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">
+                    报修原因：
+                </td>
+                <td>
+                    <textarea type="" name="reason"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">
+                    是否紧急：
+                </td>
+                <td>
+                    <input type="text" name="urgent" placeholder="紧急填1，不紧急填0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <input type="submit" name="submit" value="提交">
+                </td>
+            </tr>
+        </form>
+    </table>
+    <div>
+    </div>
+</center>
+</body>
+</html>

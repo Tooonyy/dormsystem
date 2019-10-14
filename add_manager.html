@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>增加宿舍管理人员</title>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        center {
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h1>宿舍管理人员</h1>
+
+    <table id="special">
+        <form action="./add_manager.php" method="post">
+            <tr>
+                <td style="text-align: right">
+                    账号：
+                </td>
+                <td>
+                    <input type="text" name="admin">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">
+                    密码：
+                </td>
+                <td>
+                    <input type="text" name="psw">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">
+                    姓名：
+                </td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">
+                    负责大楼：
+                </td>
+                <td>
+                    <input type="text" name="building">
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <input type="submit" name="submit" value="提交">
+                </td>
+            </tr>
+        </form>
+    </table>
+    <div>
+    </div>
+</center>
+</body>
+</html>
